@@ -1,0 +1,21 @@
+{
+    "manufacturer": "DMM",
+    "supportedModels": [
+      "DMM.make"
+    ],
+    "supportedController": "MQTT",
+    "commandsEncoding": "Raw",
+    "commands": {
+        "off": "{\"Protocol\":\"NEC\",\"Bits\":32,\"Data\":\"0x00FDC03F\"}",
+        "on": "{\"Protocol\":\"NEC\",\"Bits\":32,\"Data\":\"0x00FDC03F\"}",
+        "volumeDown": "{\"Protocol\":\"NEC\",\"Bits\":32,\"Data\":\"0x00FD58A7\"}",
+        "volumeUp": "{\"Protocol\":\"NEC\",\"Bits\":32,\"Data\":\"0x00FD6897\"}",
+        "mute": "{\"Protocol\":\"NEC\",\"Bits\":32,\"Data\":\"0x00FDA857\"}",
+        "sources": {
+            "HDMI1": "{\"Protocol\":\"NEC\",\"Bits\":32,\"Data\":\"0x00FD7887\"}",
+            "HDMI2": "{\"Protocol\":\"NEC\",\"Bits\":32,\"Data\":\"0x00FD7887\"}",
+            "HDMI3": "{\"Protocol\":\"NEC\",\"Bits\":32,\"Data\":\"0x00FD7887\"}",
+            "HDMI4": "{\"Protocol\":\"NEC\",\"Bits\":32,\"Data\":\"0x00FD7887\"}"
+        }
+    }
+}
